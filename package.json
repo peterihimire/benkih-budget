@@ -1,0 +1,20 @@
+{
+  "name": "benkih-budget",
+  "version": "1.0.0",
+  "description": "A budget app to help organize ur expenses.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [
+    "benkih-budget",
+    "budget",
+    "app"
+  ],
+  "author": "Peter Ihimire",
+  "license": "ISC",
+  "homepage": "https://peterihimire.github.io/benkih-budget",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
