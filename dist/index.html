@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>benkih budget</title>
+  <title>BENKIH BUDGET</title>
   <link rel="stylesheet" href="css/fontawesome.css">
   <link rel="stylesheet" href="css/all.css">
   <link rel="stylesheet" href="css/solid.css">
@@ -15,19 +15,15 @@
 <body>
 
   <!-- Navbar Section -->
-        
   <nav class="navbar-header">
     <div class="container">
       <div class="wrap">
-          
         <a href="#" class="navbar-logo">BEN<span>KIH</span></a>
-
         <div class="navbar-btn">
             <div class="bar bar1"></div>
             <div class="bar bar2"></div>
             <div class="bar bar3"></div>
         </div>
-        
         <ul class="navbar-links">
             <!-- single link -->
             <li>
@@ -40,23 +36,17 @@
                 <a href="#" class="navbar-single-link">refresh</a>
             </li>
         </ul>
-
       </div>
     </div>   
   </nav>
-
   <!-- End of Navbar Section -->
 
 
   <!-- App Section -->
-
   <section class="main-app">
       <div class="container">
-
           <h1>budget app</h1>
-          <div class="wrapper">
-      
-            
+          <div class="wrapper">      
               <!-- budget form -->
               <div class="card box1">
                 <div class="form-container">
@@ -68,7 +58,6 @@
                       type="number"
                       class="bud-amt"
                       id="bud-amt"
-                    
                     /> 
                     <button
                       class="button-green budget-submit"
@@ -80,34 +69,28 @@
                   </form>
                 </div>
               </div>
-
               <!-- end of budget form -->
               
               <!-- HUD display -->
               <div class="card box2">
-          
                 <div class="bud-display">
                   <h3>budget</h3>
                   <i class="fas fa-money-bill-alt"></i>
                   <h4 class="bud-green"><span>$ </span><span id="bud-display">0</span></h4>
                 </div>
-          
                 <div class="bud-display">
                   <h3>expenses</h3>
                   <i class="far fa-credit-card"></i>
                   <h4  class="exp-red"><span>$ </span><span id="exp-display" >0</span></h4>
                 </div>
-          
                 <div class="bud-display">
                   <h3>balance</h3>
                   <i class="fas fa-dollar-sign"></i>
                   <h4><span>$ </span><span id="bal-display" >0</span></h4>
                 </div>
-          
               </div>
               <!-- end of HUD display -->
 
-          
               <!-- expense form -->
               <div class="card box3">
                 <div class="form-container">
@@ -119,7 +102,6 @@
                       type="text"
                       class="exp-name"
                       id="exp-name"
-                    
                     /> 
                     <label
                       for="exp-amt">please enter expense amount</label> 
@@ -127,9 +109,7 @@
                       type="number"
                       class="exp-amt"
                       id="exp-amt"        
-            
                     /> 
-            
                     <button
                       class="button-red expense-submit"
                       type="submit"
@@ -138,53 +118,29 @@
                       add expense
                     </button>
                   </form>
-      
                 </div>
                 
               </div>
               <!-- end of expense form -->
 
-
-          
+              <!-- Items List card  -->
               <div class="card box4" id="expense-box">
                 <div class="exp-list-header">
                   <h5>expense title</h5>
                   <h5>expense value</h5>
                   <h5>edit/delete</h5>
                 </div>
-
-          
                 <!-- <div class="exp-list"> -->
-
                 <!-- single expense -->
-                <div class="expense">
-                  <p> - <span id="exp-title">buy jeans</span></p>
-
-                  <div class="center-amt">
-                    <p> $<span id="exp-value"> 100</span></p>
-                  </div>
-                  
-                  <div class="expense-edit">
-                    <div class="icon" id="icon-edit" data-id="0" >
-                      <i class="fas fa-edit" id="edit"></i>
-                    </div>
-                    <div class="icon" id="icon-trash"  data-id="0">
-                      <i class="fas fa-trash" id="trash"></i>
-                    </div>
-                  </div>
-                </div>
+                  <!-- COMMING FROM JAVASCRIPT  -->
                 <!-- end of single expense -->
-
                 <!-- </div> -->
-               
               </div>
-          
+              <!-- End of item List Card -->
           </div>
-      
         </div>
   </section>
   <!-- End of App Section -->
-
 
    <!-- footer -->
    <footer>
@@ -196,7 +152,6 @@
   </footer>
   <!-- end of footer -->
   
-    
   <script src="js/main.js" ></script>
 </body>
 </html>
